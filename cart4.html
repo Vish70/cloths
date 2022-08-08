@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>product page</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--///////////  google font  /////////////-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Limelight&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-------------- header start  ---------------- -->
+
+    <!-- <i class="fas fa-bars"></i> -->
+    <div class="header">
+        <div class="burger" id="menu-btn">
+
+        </div>
+        <div class="logo">Fashion</div>
+        <nav id="navbar">
+            <ul class="ul1">
+                <li class="active-li"><a href="index.html" class="active-a">Home</a></li>
+                <li id="product"><a href="#">Product <i class="fas fa-caret-circle-down" id="iconrotate"></i></a>
+                    <ul class="ul2" id="ul2">
+                        <li><a href="Get more.html">Men's</a></li>
+                        <li><a href="get more2.html">Girl's</a></li>
+                        <li><a href="#">Shoe's</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="login-content">
+            <div class="log-btn">
+                <a href="#" class="login-a" onclick="log()">Login <i class="fas fa-caret-circle-down"
+                        id="iconrotate2"></i></a>
+                <div class="list-log" id="show_login">
+                    <li> <a href="#"> <i class='bx bxs-user'> </i> <span> User </span> </a> </li>
+                    <li><a href="#"> <i class="bx bxs-arrow-to-right"></i> <span>Logout</span> </a></li>
+                    <li> <a href="#"> <i class="bx bxs-arrow-to-left"></i> <span> Login</span> </a></li>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart">
+            <div class="zero">
+                <span class="span-9"> 0 </span>
+            </div>
+
+            <a href="#" class="cart-logo"><i class='bx bx-cart'></i></a>
+        </div>
+    </div>
+
+    </div>
+
+    <!------------- header end  ---------------- -->
+
+
+
+    <!-------------- cart start ---------------- -->
+
+
+    <section class="cart_section">
+        <div class="cart-page">
+            <div class="product_cart">
+                <div class="bigcart-img" id="main_img_2">
+                    <img src="image/81JETmRJe2L._UL1500_.jpg">
+                </div>
+                <div class="small-img">
+                    <div class="small-1"><img src="image/811ldmMm+sL._UL1500_.jpg" id="smallimg5"></div>
+                    <div class="small-1"><img src="image/81ZezGnaxhL._UL1500_.jpg" id="smallimg6"></div>
+                    <div class="small-1"><img src="image/81JETmRJe2L._UL1500_.jpg" id="smallimg7"></div>
+                    <div class="small-1"><img src="image/shoe_size chart.jpg" id="smallimg8"></div>
+                </div>
+
+
+            </div>
+            <div class="introduction_cart">
+                <div class="details">
+                    <div class="text_cart">
+                        <h2 class="cart_content">light Brown sneaker</h2>
+                        <span class="deletep pricebtn cart_content"><small>M.R.P : <del>10000.00</del> (50% off)
+                            </small></span>
+                        <br>
+                        <span class="span-price cart_content"><i class="fas fa-rupee-sign"></i> 300</span>
+                        <div class="stars_cart cart_content">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <small>150</small>
+                        </div>
+                        <h6>Product Details</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio.
+                            <br>consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="size_content">
+                        <select name="SIZE">
+                            <option>9</option>
+                            <option>8</option>
+                            <option>10</option>
+                            <option>7</option>
+                            <option>11</option>
+                        </select>
+                        <span class="available"> Avalilability : <span class="stock"> In stock </span> </span>
+                        <br>
+                        <form class="size_btn size_content">
+                            <input type="number" max="3" min="1" value="1">
+                            <a href="#" class="bttn">ADD TO CART</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <!-------------- cart end ---------------- -->
+
+
+    <!-------------- related start ---------------- -->
+
+
+    <div class="product">
+        <h2><span class="span-2">Recently</span> viewed</h2>
+    </div>
+
+
+    <div class="container4">
+
+        <div class="bg4">
+            <a href="#"><img src="image/6162jmbBOvL._UL1500_.jpg"></a>
+            <div class="p_content">
+                <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i
+                            class='fas fa-2x fa-heart heart1'></i></button></div>
+
+                <div class="introduction">
+                    <h5>t-shirt for men</h5>
+                    <div class="txt">
+                        <!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <small>150</small>
+                        </div>
+                        <div class="pricedetail">
+                            <span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+                            <br>
+                            <span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="bg4">
+            <a href="#"><img src="image/xs-tlorrn-d45-tripr-original-imagdzex5gg6dahf-bb.webp"></a>
+            <div class="p_content">
+                <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i
+                            class='fas fa-2x fa-heart heart1'></i></button></div>
+
+                <div class="introduction">
+                    <h5>orang shirt for men</h5>
+                    <div class="txt">
+                        <!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <small>150</small>
+                        </div>
+                        <div class="pricedetail">
+                            <span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+                            <br>
+                            <span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="bg4">
+            <a href="#"><img src="image/redhudi_tshirt1.webp"></a>
+            <div class="p_content">
+                <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i
+                            class='fas fa-2x fa-heart heart1'></i></button></div>
+
+                <div class="introduction">
+                    <h5>red black huddie</h5>
+                    <div class="txt">
+                        <!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <small>150</small>
+                        </div>
+                        <div class="pricedetail">
+                            <span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+                            <br>
+                            <span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="bg4">
+            <a href="#"><img src="image/s-t428hs-dnmg-eyebogler-original-imagb2rxud2ae59t-bb.webp"></a>
+            <div class="p_content">
+                <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i
+                            class='fas fa-2x fa-heart heart1'></i></button></div>
+
+                <div class="introduction">
+                    <h5>T-shirt for men</h5>
+                    <div class="txt">
+                        <!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <small>150</small>
+                        </div>
+                        <div class="pricedetail">
+                            <span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+                            <br>
+                            <span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <br>
+
+    <!-------------- related end ---------------- -->
+
+
+
+    <!-------------- footer start ---------------- -->
+    <!-- 
+
+		<div class="numbers">
+
+			<div class="circle negetive">-</div> 
+
+			<div class="circle">
+				<span class="span-4">1</span>
+			</div>
+			<div class="circle">
+				<span class="span-4">2</span>
+			</div>
+			<div class="circle">
+				<span class="span-4">3</span>
+			</div>
+			<div class="circle">
+				<span class="span-4">4</span>
+			</div>
+
+			<div class="dot">
+				<span class="span-4">.</span>
+			</div>
+
+			<div class="dot">
+				<span class="span-4">.</span>
+			</div>
+
+			<div class="circle positive">
+				+
+			</div>
+		</div>
+
+		<br> -->
+
+    <footer>
+
+
+        <h4><span class="span-7">Fashion</span></h4>
+        <div class="footer-txt">
+            <div class="links">
+                <h6><span class="span-8">Link</span>shortcut</h6>
+                <ul class="footer-ul-1">
+                    <li class="footer-li all-li"><a href="index.html" id="footer-a">Home</a></li>
+                    <!-- <li class="all-li"><a href="#" id="footer-a">Product</a></li> -->
+                    <ul class="footer-ul-2">
+
+                        <li class="all-li"><a href="Get more.html" id="footer-a">Men's</a></li>
+                        <li class="all-li"><a href="get more2.html" id="footer-a">Girl's</a></li>
+                        <li class="all-li"><a href="#" id="footer-a">Shoe's</a></li>
+
+                    </ul>
+                    </li>
+                    <li class="all-li"><a href="#" id="footer-a">About</a></li>
+                    <li class="all-li"><a href="#" id="footer-a">Help</a></li>
+                </ul>
+            </div>
+
+            <div class="social links">
+                <h6><span class="span-8">Social</span>link's</h6>
+                <div class="face-book all-li">
+                    <a href="#" id="footer-a">
+                        <i class="fab fa-facebook-f"></i>
+                        Facebook</a>
+                </div>
+                <div class="inta-gram all-li">
+                    <a href="#" id="footer-a"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+                <div class="twi-ter all-li">
+                    <a href="#" id="footer-a"><i class="fab fa-twitter"></i> Twitter</a>
+                </div>
+            </div>
+
+            <div class="contact links fas-con">
+                <h6><span class="span-8 ">Cont</span>act</h6>
+                <div class="footer-addres color-txt all-li"><i class="fas fa-address-card"></i> Rattan Galaxy
+                    NaviMumbai(422040)</div>
+                <div class="footer-phone color-txt all-li"><i class="fas fa-phone"></i> 1454(25)88</div>
+                <div class="footer-email  color-txt all-li"><i class="fas fa-at"></i> asd@gmail.com</div>
+            </div>
+
+            <div class="facility fas-con">
+                <h6><span class="span-8">Faci</span>lity</h6>
+                <div class="facili color-txt">
+                    <div class="i-cc">
+                        <i class='bx bx-purchase-tag-alt'></i>
+                    </div>
+                    Low Price
+                </div>
+                <div class="facili color-txt">
+                    <div class="i-cc">
+                        <i class="fas fa-undo"></i>
+                    </div>
+                    7-DayReturn
+                </div>
+                <div class="facili color-txt">
+                    <div class="i-cc">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    FreeDelivery
+                </div>
+                <div class="facili color-txt">
+                    <div class="i-cc">
+                        <i class='bx bx-bookmark-alt-minus'></i>
+                    </div>
+                    PrivacyPolicy
+                </div>
+                <div class="facili color-txt">
+                    <div class="i-cc">
+                        <i class='bx bx-headphone'></i>
+                    </div>
+                    24/7Support
+                </div>
+                <div class="facili color-txt">
+                    <div class="i-cc">
+                        <i class='bx bx-gift'></i>
+                    </div>
+                    Security
+                </div>
+            </div>
+
+            <div class="map fas-con">
+                <h6><span class="span-8">Loca</span>tion</h6>
+                <div class="location">
+                    <div class="i-cc">
+                        <i class="fas fa-location"></i>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15079.452041717466!2d72.86097912347769!3d19.113664717895418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c83c05b7fc89%3A0xbe87eb057f3aafda!2sAndheri%2C%20Maharashtra%20400053!5e0!3m2!1sen!2sin!4v1640418276497!5m2!1sen!2sin"
+                        width="100" height="130" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-------------- footer end ---------------- -->
+
+
+    <!----------*Script*-------- -->
+
+    <script src="jquery.js"></script>
+
+
+    <script src="form.js">    </script>
+
+    <script>
+
+
+        var a = document.getElementById('smallimg5');
+        smallimg5.addEventListener('click', () => {
+            let f = document.getElementById("main_img_2").innerHTML = "<img src='image/811ldmMm+sL._UL1500_.jpg'>";
+        });
+
+        var b = document.getElementById('smallimg6');
+        smallimg6.addEventListener('click', () => {
+            let g = document.getElementById("main_img_2").innerHTML = "<img src='image/81ZezGnaxhL._UL1500_.jpg'>";
+
+        });
+        var b = document.getElementById('smallimg7');
+        smallimg7.addEventListener('click', () => {
+            let h = document.getElementById("main_img_2").innerHTML = "<img src='image/81JETmRJe2L._UL1500_.jpg'>";
+
+        });
+        var b = document.getElementById('smallimg8');
+        smallimg8.addEventListener('click', () => {
+            let i = document.getElementById("main_img_2").innerHTML = "<img src='image/shoe_size chart.jpg'>";
+
+        });
+
+
+
+        var ul2 = document.getElementById('ul2');
+
+
+
+        $(document).ready(function () {
+            $('#product').click(function () {
+                $('#ul2').slideToggle(1000);
+                // alert('hi');
+            });
+        });
+
+
+        $(document).ready(function () {
+            $('#menu-btn').click(function () {
+                $('#navbar').slideToggle(1000);
+                // alert('hi');
+            });
+        });
+
+        var burger = document.getElementById('menu-btn');
+
+
+    </script>
+
+
+</body>
+
+</html>

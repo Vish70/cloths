@@ -165,8 +165,6 @@ function log(){
    };
   
 
-
-
 ///////////////////////   Cart Page
 
 	
@@ -174,21 +172,33 @@ function log(){
 
 			 var a=document.getElementById('smallimg');
         smallimg.addEventListener('click',()=>{
-        let y=document.getElementById("mainimg").innerHTML="<img src='image/gallery-1.jpg'>";
+        let y=document.getElementById("main_img").innerHTML="<img src='image/gallery-1.jpg'>";
     });
 
      var b=document.getElementById('smallimg2');
         smallimg2.addEventListener('click',()=>{
-        let c=document.getElementById("mainimg").innerHTML="<img src='image/product-6.jpg'>";
+        let c=document.getElementById("main_img").innerHTML="<img src='image/gallery-2.jpg'>";
      
 	 });
           var b=document.getElementById('smallimg3');
         smallimg3.addEventListener('click',()=>{
-        let c=document.getElementById("mainimg").innerHTML="<img src='image/product-3.jpg'>";
+        let c=document.getElementById("main_img").innerHTML="<img src='image/gallery-3.jpg'>";
      
 	 });
           var b=document.getElementById('smallimg4');
         smallimg4.addEventListener('click',()=>{
-        let c=document.getElementById("mainimg").innerHTML="<img src='image/brand2.jpg'>";
+        let c=document.getElementById("main_img").innerHTML="<img src='image/gallery-4.jpg'>";
      
 	 });
+
+
+
+// /////////////////////////  
+
+
+
+
+
+
+
+
