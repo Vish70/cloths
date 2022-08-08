@@ -1036,6 +1036,9 @@ margin-bottom: .6rem;
 		cursor:pointer;
 	} 
 
+	.bg2:hover{
+		transform: none;
+	}
 
 /* ///////////////   hero sec   //////////////// */
 
@@ -1113,6 +1116,9 @@ margin-bottom: .6rem;
 		height:280px;
 	}
 
+	.bg2:hover{
+		transform: none;
+	}
 
 	/* //////////////  new arivals  ///////////// */
 
@@ -1195,6 +1201,10 @@ margin-bottom: .6rem;
 
 .bg2 .introduction{
 	padding:0rem 0rem;
+}
+
+.bg2:hover{
+	transform: none;
 }
 
 	.container2{
@@ -1296,6 +1306,9 @@ font-size:.8rem;
 	padding:0rem 0rem;
 }
 
+.bg2:hover{
+	transform: none;
+}
 	.container2{
 		grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 		width:99%;
@@ -1460,6 +1473,9 @@ font-size:.8rem;
 		font-size:.8rem;
 	}
 
+	.bg2:hover{
+		transform: none;
+	}
 
 
 /* //////////////  new arivals  ///////////// */
