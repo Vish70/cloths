@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color:rgba(0,0,0,0.9);
+	/* background-color:maroon; */
+}
+
+/* #name{
+    border-radius:5px;
+	outline:1px solid;
+
+} 
+*/
+.login{
+	display:flex;
+	flex-direction:column;
+	margin:6rem auto;
+	width:30%;
+	height:67vh;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	/* background-color:maroon; */
+	position:relative;
+}
+form{
+	padding:.4rem;
+	display:flex;
+	flex-direction:column;
+	grid-row-gap:.9rem;
+}
+::placeholder{
+	/* text-align:center; */
+}
+form input,button{
+	/* outline:none; */
+	padding:1rem;
+	width:300px;
+	border:none; 
+	border-radius:4px;
+    outline:2px solid rgba(0,0,0,0.1);
+	/* border-color:rgba(0,0,0,0.1); */
+	font-family:sans-serif;
+}
+
+button{
+	border:none;
+	cursor:pointer;
+	color:white;
+	font-weight:bolder;
+	/* background-image: linear-gradient(to right top, #69bff8, #52cffe, #41dfff, #46ee, #5ffbf1); */
+    background-image: linear-gradient(to right top, #69bff8, #46ee,#46ee);
+}
+
+form input{
+    background-color:rgba(0,0,0,0.4);
+}
+
+[type=text]{
+   padding-left:3.2rem;
+   color:white;
+}
+
+[type=password]{
+   padding-left:3.2rem;
+   color:white;
+}
+
+.icon i{
+	position:absolute;
+    font-size:1rem;
+    padding:1rem .8rem;
+    color:darkgray;
+    background-color:rgba(0,0,0,0.2);
+}
+
+.user i,.lock i{
+    padding:1rem .9rem;
+}
+.icon{
+	position:relative;
+}
+
+
+h2{
+	font-family:sans-serif;
+	font-size:1.5rem;
+	font-weight: bolder;
+	color:lightgray;
+	border-bottom:1px solid white;
+}
+.signin-name{
+	font-family:sans-serif;
+	display:flex;
+	padding:.5rem;
+	grid-column-gap:1rem;
+}
+
+.alrady{
+	color:darkgray;
+	font-size:.8rem;
+}
+.signein{
+	color:white;
+	font-weight: bolder;
+	font-size:.8rem;
+}
+.signein a{
+	color:white;
+	text-decoration:none;
+}
+.signin-name i{
+font-size:1rem;
+color:#69bff8;
+
+}
+#error{
+	display:none;
+	color:gray;
+}
+#error-2{
+	display:none;
+	color:gray;
+}
+#error-3{
+	display:none;
+	color:gray;
+}
+#error-4{
+	display:none;
+	color:gray;
+}
+
+
+@media screen and (max-width:874px) and (min-width:420px){
+.signin-name{
+	width:120%;
+	grid-row-gap:.3rem;
+	flex-direction:column;
+	}
+
+}
+
+@media screen and (max-width:419px) and (min-width:370px){
+	.signin-name{
+	  width:170%;
+	  margin-left:1rem;
+	grid-column-gap:1.1rem;
+
+	}
+
+}
+@media screen and (max-width:369px) and (min-width:340px){
+	.signin-name{
+	  width:190%;
+		
+	}
+}

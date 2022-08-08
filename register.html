@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="http://fonts.cdnfonts.com/css/broadway" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+	<title>Login</title>
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<section class="login">	
+		<h2>SIGN UP</h2>
+		<form onsubmit="return valid();">
+			<div class="icon user">
+				<i class="fas fa-user" id="user"></i>
+				<input type="text" name="fullname" onclick="iconcolor()"  placeholder="Username" id="name" autocomplete="off" title="enter 1st letter Chapital" required>
+			</div>
+			<p id="error"></p>
+
+			<div class="icon">
+				<i class="fas fa-envelope" id="user-2"></i>
+				<input type="text" placeholder="Email" onclick="iconcolor2()" id="email" autocomplete="off" title="" required>
+			</div>
+
+			<p id="error-2"></p>
+
+			<div class="icon lock">
+				<i class="fas fa-lock" id="user-3"></i>
+				<input type="password" placeholder="Password" onclick="iconcolor3()"  autocomplete="off"  id="password" required></div>
+
+			<p id="error-3"></p>
+            
+
+				<div class="icon lock">
+					<i class="fas fa-lock" id="user-4"></i>
+					<input type="password" placeholder="Re-enter" onclick="iconcolor4()"  autocomplete="off"  id="cpassword" required>
+				</div>
+
+
+			<p id="error-4"></p>
+
+				<button type="submit">REGISTER</button>
+			</form>
+			<div class="signin-name">
+				<div class="alrady">
+				<h5>Have an Account</h5>
+				</div>
+				<div class="signein">
+				<a href="index.html"><h5>Login Now</h5> <i class="fas fa-long-arrow-alt-right"></i></a>
+				</div>
+			</div>
+
+		</section>
+
+
+		<script type="text/javascript" src="form.js">
+
+
+/////////////  Validation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
+
+
