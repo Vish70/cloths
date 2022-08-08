@@ -101,7 +101,7 @@ body{
 	height:80px;
 	margin:0% auto;
 	display:flex;
-	box-shadow:2px 2px 4px 2px rgba(0,0,0,0.3);
+	box-shadow:1px 1px 1px 1px rgba(0,0,0,0.2);
 	/* flex-wrap:wrap; */
 	justify-content:space-between;
 	align-items:center;
@@ -895,7 +895,7 @@ h6{
 	padding:0 0 2rem 0;
 }
 .social{
-	padding:0 0 6rem 0;
+	padding:0 0 2rem 0;
 }
 
 .twi-ter i{

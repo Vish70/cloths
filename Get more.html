@@ -4,204 +4,339 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link href="http://fonts.cdnfonts.com/css/broadway" rel="stylesheet">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 	<title>Men</title>
-	<link rel="stylesheet" href="css/Get more.css">
+	<link rel="stylesheet" href="css/style.css">
+
+<!--///////////  google font  /////////////-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Limelight&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-	<!-------------- header start ---------------- -->
+
+  <!-------------- header start  ---------------- -->
+
+  <!-- <i class="fas fa-bars"></i> -->
+  <div class="header">
+    <div class="burger" id="menu-btn">
+
+    </div>
+    <div class="logo">Fashion</div>
+    <nav id="navbar">
+     <ul class="ul1">
+      <li class="active-li"><a href="index.html" class="active-a">Home</a></li>
+      <li id="product"><a href="#">Product  <i class="fas fa-caret-circle-down" id="iconrotate"></i></a>
+       <ul class="ul2" id="ul2">
+        <li><a href="Get more.html">Men's</a></li>
+        <li><a href="get more2.html">Girl's</a></li>
+        <li><a href="#">Shoe's</a></li>
+      </ul>
+    </li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Help</a></li>
+  </ul>
+</nav>
 
 
-	<div class="header">
-		<div class="burger" id="menu-btn"></div>
-		<div class="logo">Fashion</div>
-		<nav id="navbar">
-			<ul class="ul1" id="menu">
-				<li class="active-li"><a href="index.html" class="active-a">Home</a></li>
-				<li id="product"><a href="#">Product <i class="fas fa-caret-circle-down" id="iconrotate"></i></a>
-					<ul class="ul2" id="ul2">
+<div class="login-content">
+	<div class="log-btn">
+		<a href="#" class="login-a" onclick="log()">Login <i class="fas fa-caret-circle-down" id="iconrotate2"></i></a>
+	<div class="list-log" id="show_login">      
+		<li> <a href="#"> <i class='bx bxs-user'> </i> <span> User </span> </a> </li>
+		<li><a href="#"> <i class="bx bxs-arrow-to-right"></i> <span>Logout</span> </a></li>
+		<li> <a href="#"> <i class="bx bxs-arrow-to-left"></i> <span> Login</span> </a></li>    
+   </div>
+</div>
+</div>
 
-						<li><a href="Get more.html">Men's</a></li>
-						<li><a href="get more2.html">Girl's</a></li>
-						<li><a href="#">Shoe's</a></li>
+<div class="cart">
+ <div class="zero">
+  <span class="span-9"> 0 </span></div>
 
-					</ul>
-				</li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Help</a></li>
-			</ul>
-		</nav>
-		<div class="login"><a href="login.html" class="login-a">Login</a></div>
-		<div class="cart"> <div class="zero">
-			<span class="span-9"> 0 </span></div><a href="#" class="cart-logo"><i class='bx bx-cart'></i></a></div>
+  <a href="#" class="cart-logo"><i class='bx bx-cart'></i></a>
+</div>
+</div>
+
+</div>
+
+<!------------- header end  ---------------- -->
+
+
+
+<!-------------- conatiner 4 start  ---------------- -->
+
+<div class="product"><h2><span class="span-2">Men's</span> Product</h2></div>
+
+<div class="container4">
+ 
+	
+	<div class="bg4">
+		<a href="#"><img src="image/61YQd1wdQBL._UL1440_.jpg"></a>
+		<div class="p_content">
+	  <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i class='fas fa-2x fa-heart heart1'></i></button></div>
+	 
+	  <div class="introduction">
+	  <h5>light pink shirt</h5>
+		<div class="txt">
+			<!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				<small>150</small>
+			</div>
+			<div class="pricedetail">
+			<span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+			<br>
+			<span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+		</div>
+		</div>
+		</div>
 		</div>
 
-		<br>
-
-		<!-------------- header end ---------------- -->
+	</div>
 
 
-		<!-------------- container 1 start ---------------- -->
-
-
-
-		<div class="name"><span class="span-1">Men's</span> Product</div>
-		<div class="container comman">
-			<div class="bg1">
-				<img src="image/product-4.jpg" alt="">
-
-				<h5>T-Shirt</h5>
-
-				<div class="txt">
-					<span class="span-3"><i class="fas fa-rupee-sign"></i> 300</span>
-					<a href="cart.html" class="btn-a">Buy</a>
-					<div class="stars">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star-half-alt"></i>
-					</div>
-				</div>
-
+	<div class="bg4">
+		<a href="#"><img src="image/71Bo9OtlEtL._UL1440_.jpg"></a>
+		<div class="p_content">
+	  <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i class='fas fa-2x fa-heart heart1'></i></button></div>
+	 
+	  <div class="introduction">
+	  <h5>Pattern shirt</h5>
+		<div class="txt">
+			<!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				<small>150</small>
 			</div>
-
-
-			<div class="bg1">
-				<img src="image/jaket2.jpg">
-
-				<h5>T-Shirt</h5>
-
-				<div class="txt">
-					<span class="span-3"><i class="fas fa-rupee-sign"></i> 300</span>
-					<a href="cart.html" class="btn-a">Buy</a>
-					<div class="stars">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star-half-alt"></i>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="bg1">
-				<img src="image/product-3.jpg">
-
-				<h5>T-Shirt</h5>
-				<div class="txt">
-					<span class="span-3"><i class="fas fa-rupee-sign"></i> 300</span>
-					<a href="cart.html" class="btn-a">Buy</a>
-					<div class="stars">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star-half-alt"></i>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="bg1">
-				<img src="image/brand3.jfif" alt="">
-
-				<h5>T-Shirt</h5>
-
-				<div class="txt">
-					<span class="span-3"><i class="fas fa-rupee-sign"></i> 299</span>
-					<a href="cart.html" class="btn-a">Buy</a>
-					<div class="stars">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star-half-alt"></i>
-					</div>
-				</div>
-			</div>
+			<div class="pricedetail">
+			<span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+			<br>
+			<span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+		</div>
+		</div>
+		</div>
 		</div>
 
-		<!-------------- container 1 end ---------------- -->
+	</div>
 
 
-		<!-------------- container 2 start ---------------- -->
 
 
-		<div class="container2 comman">
-
-			<div class="bg1">
-				<img src="image/boy.jpg">
-
-				<h5>T-Shirt</h5>
-
-				<div class="txt">
-					<span class="span-3"><i class="fas fa-rupee-sign"></i> 300</span>
-					<a href="cart.html" class="btn-a">Buy</a>
-					<div class="stars">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star-half-alt"></i>
-					</div>
-				</div>
+	<div class="bg4">
+		<a href="#"><img src="image/81-P1K7++LL._UL1500_.jpg"></a>
+		<div class="p_content">
+	  <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i class='fas fa-2x fa-heart heart1'></i></button></div>
+	 
+	  <div class="introduction">
+	  <h5>Jacket for men</h5>
+		<div class="txt">
+			<!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				<small>150</small>
 			</div>
-
-			<div class="bg1">
-				<img src="image/pic4.jpg" alt="">
-
-				<h5>T-Shirt</h5>
-
-				<div class="txt">
-					<span class="span-3"><i class="fas fa-rupee-sign"></i> 300</span>
-					<a href="cart.html" class="btn-a">Buy</a>
-					<div class="stars">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star-half-alt"></i>
-					</div>
-				</div>
-
-
-			</div>
-			<div class="bg1">
-				<img src="image/mens's1.jpg">
-
-				<h5>T-Shirt</h5>
-
-				<div class="txt">
-					<span class="span-3"><i class="fas fa-rupee-sign"></i> 299</span>
-					<a href="cart.html" class="btn-a">Buy</a>
-					<div class="stars">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star-half-alt"></i>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="bg1">
-				<img src="image/jaket's1.jpg" alt="">
-
-				<h5>T-Shirt</h5>
-
-				<div class="txt">
-					<span class="span-3"><i class="fas fa-rupee-sign"></i> 300</span>
-					<a href="cart.html" class="btn-a">Buy</a>
-					<div class="stars">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star-half-alt"></i>
-					</div>
-				</div>
-			</div>
+			<div class="pricedetail">
+			<span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+			<br>
+			<span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+		</div>
+		</div>
+		</div>
 		</div>
 
-		<br>
+	</div>
 
-		<!-------------- container 2 end ---------------- -->
+
+
+	<div class="bg4">
+		<a href="#"><img src="image/619KqjF3-qL._UL1109_.jpg"></a>
+		<div class="p_content">
+	  <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i class='fas fa-2x fa-heart heart1'></i></button></div>
+	 
+	  <div class="introduction">
+	  <h5>dark blue kurta</h5>
+		<div class="txt">
+			<!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				<small>150</small>
+			</div>
+			<div class="pricedetail">
+			<span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+			<br>
+			<span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+		</div>
+		</div>
+		</div>
+		</div>
+
+	</div>
+
+
+
+
+	<div class="bg4">
+		<a href="#"><img src="image/6162jmbBOvL._UL1500_.jpg"></a>
+		<div class="p_content">
+	  <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i class='fas fa-2x fa-heart heart1'></i></button></div>
+	 
+	  <div class="introduction">
+	  <h5>t-shirt for men</h5>
+		<div class="txt">
+			<!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				<small>150</small>
+			</div>
+			<div class="pricedetail">
+			<span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+			<br>
+			<span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+		</div>
+		</div>
+		</div>
+		</div>
+
+	</div>
+
+
+	<div class="bg4">
+		<a href="#"><img src="image/xs-tlorrn-d45-tripr-original-imagdzex5gg6dahf-bb.webp"></a>
+		<div class="p_content">
+	  <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i class='fas fa-2x fa-heart heart1'></i></button></div>
+	 
+	  <div class="introduction">
+	  <h5>orang shirt for men</h5>
+		<div class="txt">
+			<!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				<small>150</small>
+			</div>
+			<div class="pricedetail">
+			<span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+			<br>
+			<span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+		</div>
+		</div>
+		</div>
+		</div>
+
+	</div>
+
+
+
+
+	<div class="bg4">
+		<a href="#"><img src="image/redhudi_tshirt1.webp"></a>
+		<div class="p_content">
+	  <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i class='fas fa-2x fa-heart heart1'></i></button></div>
+	 
+	  <div class="introduction">
+	  <h5>red black huddie</h5>
+		<div class="txt">
+			<!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				<small>150</small>
+			</div>
+			<div class="pricedetail">
+			<span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+			<br>
+			<span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+		</div>
+		</div>
+		</div>
+		</div>
+
+	</div>
+
+
+
+	<div class="bg4">
+		<a href="#"><img src="image/s-t428hs-dnmg-eyebogler-original-imagb2rxud2ae59t-bb.webp"></a>
+		<div class="p_content">
+	  <div class="btn1"> <button type="submit" name="heart_btn" class="heart2"><i class='fas fa-2x fa-heart heart1'></i></button></div>
+	 
+	  <div class="introduction">
+	  <h5>T-shirt for men</h5>
+		<div class="txt">
+			<!-- <a href="cart.php?id=" class="btn-a lowerpb">Buy</a> -->
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				<small>150</small>
+			</div>
+			<div class="pricedetail">
+			<span class="deletep pricebtn"><small>M.R.P : <del>10000.00</del> (50% off) </small></span>
+			<br>
+			<span class="span-3 lowerpb"><i class="fas fa-rupee-sign"> </i> 300 </span>
+		</div>
+		</div>
+		</div>
+		</div>
+
+	</div>
+
+
+
+</div>
+
+
+
+<!-- ////////////////  Container 4 end  //////////////// -->
+
+
+
+
+
+
+
+
+
 
 
 		<!-------------- footer start ---------------- -->
 
 
-		<div class="numbers">
+		<!-- <div class="numbers">
 
 			<div class="circle negetive">-</div> 
 
@@ -232,7 +367,7 @@
 			</div>
 		</div>
 
-		<br>
+		<br> -->
 
 
 		<footer>
@@ -334,12 +469,41 @@
 
 
 
-
 	<!----------*Script*-------- -->
 
-<script src="form.js">
+<script src="jquery.js"></script>
+
+
+<script src="form.js"></script>
+
+<script>
+
+ var ul2 = document.getElementById('ul2');
+
+
+
+$(document).ready(function(){
+$('#product').click(function(){
+	$('#ul2').slideToggle(1000);
+	// alert('hi');
+});
+});
+
+
+$(document).ready(function(){
+$('#menu-btn').click(function(){
+	$('#navbar').slideToggle(1000);
+	// alert('hi');
+});
+});
+
+      var burger=document.getElementById('menu-btn');
+
 
 </script>
+
+
+
 
 </body>
 </html>
