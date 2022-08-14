@@ -1302,6 +1302,18 @@ color:var(--i-color);
 		justify-content:space-around;
 		width:100%;
 	}
+	
+	/* .bigcart-img{
+		width:350px;
+		height:297px;
+		padding-bottom:.4rem;
+	} */
+	/* .bigcart-img img{
+		width:100%;
+		height:100%;
+		border-radius:2px;
+	} */
+
 	.details{
 		background-color:rgba(211, 211, 211, 0.109);
 		/* background-color:rgba(236, 200, 166, 0.267); */
